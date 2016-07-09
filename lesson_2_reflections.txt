@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+A git config folder is added at the current location. Git needs to know what files
+belong to the new repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging only holds files slated for commit vs holding all the files. It allows you
+to commit one or more files separately from files you are still editing.
