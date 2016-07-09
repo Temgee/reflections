@@ -15,7 +15,7 @@ Why do you think some version control systems, like Git, allow saving multiple f
 In Docs you're most likely only working on a single file, whereas in Git the addition of an element may require editing multiple files at the same time: js, css and html for example
 
 How can you use the commands git log and git diff to view the history of files?
-Git log shows all commits. With diff you see the additionas and deletions between two files.
+Git log shows all commits. With diff you see the additions and deletions between two files.
 
 How might using version control make you more confident to make changes that could break something?
 You can simply jump back to an earlier version that is still working and compare subsequent changes to find the bug
