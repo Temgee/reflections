@@ -9,3 +9,18 @@ to commit one or more files separately from files you are still editing.
 
 How can you use the staging area to make sure you have one commit per logical change?
 Only add the files belonging to the change to staging, If necessary, you can can do a diff to check what edits your are commiting against the previous last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Use a branch to test out a new feature or make a experimental changes for example, without disturbing the master branch. Each branch would be for a distinct update to keep them separated, and once complete, to be merged into the master branch.
+
+How do the diagrams help you visualize the branch structure?
+They show what changes are in what branches, and whether or not there are any orphaned commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Commits are merged according to timestamps. Edits to files are merged together. The result is one new branch with two parent branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Auto merging will attempt the best solution based on the differences in two files.
+If there are conflicts, the merge will be interrupted until you add a resolution.
+Auto merge can also only take a best guess as to which edits should be in the final
+version vs during a manual merge you know what edits should go up.
