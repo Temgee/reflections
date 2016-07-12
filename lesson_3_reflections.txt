@@ -6,3 +6,11 @@ stay up-to-date with your remote repository?
 Should this be push? Control over which branches are pulled for an update. If pushing,
 it would prevent items from being publicly accessible before you are finished
 working on them.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork = copy of repository from GH to GH
+Clone = copy of repository from GH to local or local to local
+Branches = separate editing track from master or branch
+Fork to get copy of someone else's repository with credit back to them, stays on GH. Clone to work
+on a repository locally or make a duplicate of one locally. Branch to test new edits or features
+before possibly committing them to the master branch.
