@@ -18,3 +18,16 @@ before possibly committing them to the master branch.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You have up-to-date files which you can access even while offline. You can compare them to your
 working copy and merge components if and when you want.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You would have to send files back and forth, manually check for differences and keep each
+contributor constantly updated with what's being changed. It would be difficult to
+keep track of master docs vs test cases, and chances for conflicts would be much greater.
+I don't believe there is an easier component.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+Changes in new branch that you can show to others for review without affecting the master,
+then can be merged when all relevant contributors have ok'd the changes. Changes to the master
+could be simple fixes such as typos that don't drastically alter the code in
+unexpected ways.
