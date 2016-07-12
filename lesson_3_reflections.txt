@@ -14,3 +14,7 @@ Branches = separate editing track from master or branch
 Fork to get copy of someone else's repository with credit back to them, stays on GH. Clone to work
 on a repository locally or make a duplicate of one locally. Branch to test new edits or features
 before possibly committing them to the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You have up-to-date files which you can access even while offline. You can compare them to your
+working copy and merge components if and when you want.
